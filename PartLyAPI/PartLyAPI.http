@@ -1,0 +1,6 @@
+@PartLyAPi_HostAddress = http://localhost:5043
+
+GET {{PartLyAPi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

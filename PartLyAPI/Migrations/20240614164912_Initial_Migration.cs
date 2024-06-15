@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace UrlShortener.Migrations
+namespace PartLyAPi.Migrations
 {
     /// <inheritdoc />
     public partial class Initial_Migration : Migration

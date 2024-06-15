@@ -1,4 +1,4 @@
-﻿namespace UrlShortener.Models
+﻿namespace PartLyAPi.Models
 {
     public class RegisterModel
     {

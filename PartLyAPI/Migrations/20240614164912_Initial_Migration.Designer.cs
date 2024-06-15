@@ -2,17 +2,20 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using UrlShortener.Models;
+using PartLyAPi.Models;
 
 #nullable disable
 
-namespace UrlShortener.Migrations
+namespace PartLyAPi.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    partial class ApplicationContextModelSnapshot : ModelSnapshot
+    [Migration("20240614164912_Initial_Migration")]
+    partial class Initial_Migration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.6");
@@ -209,7 +212,7 @@ namespace UrlShortener.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("UrlShortener.Models.UrlMapper", b =>
+            modelBuilder.Entity("PartLyAPi.Models.UrlMapper", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -287,7 +290,7 @@ namespace UrlShortener.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("UrlShortener.Models.UrlMapper", b =>
+            modelBuilder.Entity("PartLyAPi.Models.UrlMapper", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "CreatedByUser")
                         .WithMany()

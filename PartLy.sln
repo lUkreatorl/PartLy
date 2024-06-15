@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartLyAPi", "UrlShortener\PartLyAPi.csproj", "{CF0C6D5C-1B6B-41A0-AAE6-0B0D3DB827CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartLyAPi", "PartLyAPi\PartLyAPi.csproj", "{CF0C6D5C-1B6B-41A0-AAE6-0B0D3DB827CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

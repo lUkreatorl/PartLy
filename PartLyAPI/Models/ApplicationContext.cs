@@ -1,4 +1,4 @@
-﻿namespace UrlShortener.Models
+﻿namespace PartLyAPi.Models
 {
     using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
     using Microsoft.AspNetCore.Identity;
